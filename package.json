@@ -1,7 +1,7 @@
 {
   "name": "portfolio-adventure",
   "version": "1.0.0",
-  "description": "",
+  "description": "Short adventure like interface ",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
