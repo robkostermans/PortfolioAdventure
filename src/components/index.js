@@ -12,3 +12,4 @@
 
 export * from "./beacon/beacon";
 export * from "./beacon/hotspot";
+export * from "./drawText";

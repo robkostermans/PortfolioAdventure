@@ -2,6 +2,9 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useSpring, animated, useChain } from "react-spring";
 import SVG from "react-inlinesvg";
 
+/**
+ * TODO DIRECTION: offset * 2?
+ */
 const LoadedSVG = ({ asset, dash: dashInPercentage, opacity }) => {
   const [pathLength, setPathLength] = useState(null);
   const [dash, setDash] = useState(0);

@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-import { Beacon, Hotspot } from "components";
+import { Beacon, Hotspot, DrawText } from "components";
 
 export default function App() {
   return (
@@ -10,6 +10,8 @@ export default function App() {
       <div style={{ width: "100px" }}>
         <Hotspot />
       </div>
+
+      <DrawText>Single Line of text</DrawText>
     </div>
   );
 }
